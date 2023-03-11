@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Reactive Site</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img src="./assets/logo.svg" alt="" />
+      </header>
+      <div class="content">
+        <div class="main">
+          <div class="container-main">
+            <div class="login">
+              <div class="loginTitle">
+                <img src="./assets/log-in.svg" alt="" />
+                <span>Faça seu login</span>
+              </div>
+              <p>Entre com suas informações de cadastro</p>
+            </div>
+            <form>
+              <div>
+                <label for="email">E-mail</label>
+                <div>
+                  <img src="./assets/mail.svg" alt="" />
+                  <input
+                    id="email"
+                    name="name"
+                    type="email"
+                    placeholder="Digite seu email"
+                  />
+                </div>
+              </div>
+              <div>
+                <label for="password">Senha</label>
+                <div>
+                  <img src="./assets/lock.svg" alt="" />
+                  <input
+                    type="password"
+                    name="password"
+                    id="password"
+                    placeholder="Digite sua senha"
+                  />
+                  <img src="./assets/eye.svg" alt="" />
+                </div>
+              </div>
+              <div>
+                <div>
+                  <input type="checkbox" id="remeber" name="remember" />
+                  <label for="remember">Lembre-me</label>
+                </div>
+                <span>Esqueci minha senha</span>
+              </div>
+              <button type="button">Entrar</button>
+            </form>
+            <p class="register">
+              Não tem uma conta? <strong>Registre-se</strong>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-img"></div>
+  </body>
+</html>
